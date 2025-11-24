@@ -10,7 +10,10 @@
       <TargetName>STM32</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+<<<<<<< HEAD
       <pCCUsed>6240000::V6.24::ARMCLANG</pCCUsed>
+=======
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -415,6 +418,7 @@
           <GroupName>Drivers/STM32F4xx_HAL_Driver</GroupName>
           <Files>
             <File>
+<<<<<<< HEAD
               <FileName>stm32f4xx_hal_adc.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c</FilePath>
@@ -527,6 +531,8 @@
               </FileOption>
             </File>
             <File>
+=======
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
               <FileName>stm32f4xx_hal_rcc.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c</FilePath>
@@ -591,6 +597,7 @@
               <FileType>1</FileType>
               <FilePath>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c</FilePath>
             </File>
+<<<<<<< HEAD
             <File>
               <FileName>stm32f4xx_hal_tim.c</FileName>
               <FileType>1</FileType>
@@ -703,6 +710,8 @@
                 </FileArmAds>
               </FileOption>
             </File>
+=======
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
           </Files>
         </Group>
         <Group>

@@ -57,9 +57,13 @@
 /* USER CODE BEGIN 0 */
 
 /* USER CODE END 0 */
+<<<<<<< HEAD
 
 void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
                     /**
+=======
+/**
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
   * Initializes the Global MSP.
   */
 void HAL_MspInit(void)
@@ -79,6 +83,7 @@ void HAL_MspInit(void)
   /* USER CODE END MspInit 1 */
 }
 
+<<<<<<< HEAD
 /**
   * @brief ADC MSP Initialization
   * This function configures the hardware resources used in this example
@@ -212,6 +217,8 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
 
 }
 
+=======
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
 /* USER CODE BEGIN 1 */
 
 /* USER CODE END 1 */

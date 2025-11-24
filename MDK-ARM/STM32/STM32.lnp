@@ -3,8 +3,11 @@
 "stm32\main.o"
 "stm32\stm32f4xx_it.o"
 "stm32\stm32f4xx_hal_msp.o"
+<<<<<<< HEAD
 "stm32\stm32f4xx_hal_adc.o"
 "stm32\stm32f4xx_hal_adc_ex.o"
+=======
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
 "stm32\stm32f4xx_hal_rcc.o"
 "stm32\stm32f4xx_hal_rcc_ex.o"
 "stm32\stm32f4xx_hal_flash.o"
@@ -18,8 +21,11 @@
 "stm32\stm32f4xx_hal_cortex.o"
 "stm32\stm32f4xx_hal.o"
 "stm32\stm32f4xx_hal_exti.o"
+<<<<<<< HEAD
 "stm32\stm32f4xx_hal_tim.o"
 "stm32\stm32f4xx_hal_tim_ex.o"
+=======
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
 "stm32\system_stm32f4xx.o"
 --strict --scatter "STM32\STM32.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols

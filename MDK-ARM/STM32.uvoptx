@@ -119,6 +119,7 @@
       <TargetDriverDllRegistry>
         <SetRegEntry>
           <Number>0</Number>
+<<<<<<< HEAD
           <Key>ARMRTXEVENTFLAGS</Key>
           <Name>-L70 -Z18 -C0 -M0 -T1</Name>
         </SetRegEntry>
@@ -139,12 +140,15 @@
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
+=======
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
           <Key>UL2CM3</Key>
           <Name>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0STM32F4xx_1024 -FS08000000 -FL0100000 -FP0($$Device:STM32F407VGTx$CMSIS\Flash\STM32F4xx_1024.FLM))</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>ST-LINKIII-KEIL_SWO</Key>
+<<<<<<< HEAD
           <Name>-U-O142 -O2254 -SF10000 -C0 -A0 -I0 -HNlocalhost -HP7184 -P1 -N00("ARM CoreSight SW-DP (ARM Core") -D00(2BA01477) -L00(0) -TO131090 -TC10000000 -TT10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F4xx_1024.FLM -FS08000000 -FL0100000 -FP0($$Device:STM32F407VGTx$CMSIS\Flash\STM32F4xx_1024.FLM) -WA0 -WE0 -WVCE4 -WS2710 -WM0 -WP2 -WK0-R0</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
@@ -163,6 +167,12 @@
           <ItemText>led_index</ItemText>
         </Ww>
       </WatchWindow2>
+=======
+          <Name>-U-O142 -O2254 -S0 -C0 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F4xx_1024.FLM -FS08000000 -FL0100000 -FP0($$Device:STM32F407VGTx$CMSIS\Flash\STM32F4xx_1024.FLM)</Name>
+        </SetRegEntry>
+      </TargetDriverDllRegistry>
+      <Breakpoint/>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <Tracepoint>
         <THDelay>0</THDelay>
       </Tracepoint>
@@ -205,6 +215,7 @@
       <pszMrulep></pszMrulep>
       <pSingCmdsp></pSingCmdsp>
       <pMultCmdsp></pMultCmdsp>
+<<<<<<< HEAD
       <SystemViewers>
         <Entry>
           <Name>System Viewer\GPIOA</Name>
@@ -214,6 +225,11 @@
       <DebugDescription>
         <Enable>1</Enable>
         <EnableFlashSeq>0</EnableFlashSeq>
+=======
+      <DebugDescription>
+        <Enable>1</Enable>
+        <EnableFlashSeq>1</EnableFlashSeq>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
         <EnableLog>0</EnableLog>
         <Protocol>2</Protocol>
         <DbgClock>10000000</DbgClock>
@@ -298,6 +314,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+<<<<<<< HEAD
       <PathWithFileName>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f4xx_hal_adc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -322,6 +339,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+=======
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <PathWithFileName>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f4xx_hal_rcc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -329,7 +348,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>8</FileNumber>
+=======
+      <FileNumber>6</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -341,7 +364,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>9</FileNumber>
+=======
+      <FileNumber>7</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -353,7 +380,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>10</FileNumber>
+=======
+      <FileNumber>8</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -365,7 +396,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>11</FileNumber>
+=======
+      <FileNumber>9</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -377,7 +412,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>12</FileNumber>
+=======
+      <FileNumber>10</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -389,7 +428,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>13</FileNumber>
+=======
+      <FileNumber>11</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -401,7 +444,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>14</FileNumber>
+=======
+      <FileNumber>12</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -413,7 +460,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>15</FileNumber>
+=======
+      <FileNumber>13</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -425,7 +476,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>16</FileNumber>
+=======
+      <FileNumber>14</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -437,7 +492,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>17</FileNumber>
+=======
+      <FileNumber>15</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -449,7 +508,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>18</FileNumber>
+=======
+      <FileNumber>16</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -461,7 +524,11 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>19</FileNumber>
+=======
+      <FileNumber>17</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -471,6 +538,7 @@
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+<<<<<<< HEAD
     <File>
       <GroupNumber>3</GroupNumber>
       <FileNumber>20</FileNumber>
@@ -495,6 +563,8 @@
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+=======
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
   </Group>
 
   <Group>
@@ -505,7 +575,11 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>4</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>22</FileNumber>
+=======
+      <FileNumber>18</FileNumber>
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>

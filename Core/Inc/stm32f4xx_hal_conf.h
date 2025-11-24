@@ -38,7 +38,11 @@
 #define HAL_MODULE_ENABLED
 
   /* #define HAL_CRYP_MODULE_ENABLED */
+<<<<<<< HEAD
 #define HAL_ADC_MODULE_ENABLED
+=======
+/* #define HAL_ADC_MODULE_ENABLED */
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
 /* #define HAL_CAN_MODULE_ENABLED */
 /* #define HAL_CRC_MODULE_ENABLED */
 /* #define HAL_CAN_LEGACY_MODULE_ENABLED */
@@ -63,7 +67,11 @@
 /* #define HAL_SD_MODULE_ENABLED */
 /* #define HAL_MMC_MODULE_ENABLED */
 /* #define HAL_SPI_MODULE_ENABLED */
+<<<<<<< HEAD
 #define HAL_TIM_MODULE_ENABLED
+=======
+/* #define HAL_TIM_MODULE_ENABLED */
+>>>>>>> adabb957bd78e6e336c8390828dfe7db8f535d99
 /* #define HAL_UART_MODULE_ENABLED */
 /* #define HAL_USART_MODULE_ENABLED */
 /* #define HAL_IRDA_MODULE_ENABLED */
